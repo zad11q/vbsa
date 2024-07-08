@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v3  
       - uses: actions/setup-node@v3  
         with:  
-          node-version: '16' # 使用Node.js 16，你可以根据需要更改  
+          node-version: '12' # 使用Node.js 16，你可以根据需要更改  
           registry-url: 'https://registry.npmjs.org/' # npm仓库URL  
       - run: npm ci  
       - run: npm test # 如果你的项目有测试，请取消注释这行  
