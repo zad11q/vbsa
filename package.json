@@ -8,7 +8,7 @@
     "build": "react-scripts build",  
     "test": "react-scripts test",  
     "eject": "react-scripts eject"  
-  },  
+  }, 
   "keywords": ["your", "keywords", "here"],  
   "author": "Your Name <your.email@example.com>",  
   "license": "ISC",  
